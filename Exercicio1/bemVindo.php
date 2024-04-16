@@ -38,11 +38,11 @@
                     $dataDeAtivacao = date("d/m/Y", strtotime("+1 week")); // Data de ativação em uma semana
 
                     // Exibe mensagem de boas-vindas personalizada
-                    echo "<p>Bem-vinda(o), $username! :) <br> </p>";
-                    echo "<p>Sua conta será ativada em: $dataDeAtivacao <br></p>";
+                    echo "<p>Bem-vinda(o), $username! :) <br> </p><br>";
+                    echo "<p>Sua conta será ativada em: $dataDeAtivacao <br></p><br>";
                     echo "<p>Senha criptografada: " . $consultaUsuario[$username] . "</p>"; // Exibe a senha criptografada
 
-                 
+                
                 } else {
                     // Erro de autenticação
                     echo "<p>Usuário ou senha inválidos!</p>";
@@ -56,7 +56,6 @@
             ?>
             
         </section>
-   
     </div>
 </body>
 
