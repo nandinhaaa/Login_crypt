@@ -1,87 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 :root {
-  --green: #3b7b1b;
-  --dark-green: #265210;
-  --grey: #808080;
-  --grey-light: #c4c4c4;
-  --background: #ceddec;
+    --green: #3b7b1b;
+    --dark-green: #265210;
+    --grey: #808080;
+    --grey-light: #c4c4c4;
+    --background: #ceddec;
 }
 
 body {
-  background-color: var(--background);
+    background-color: var(--background);
 }
 
 #tformulario {
-  background-color: rgba(255, 255, 255, 255);
-  margin: 50px auto;
-  padding: 30px;
-  width: 350px;
-  border-radius: 10px;
-  min-height: 180px;
-  text-align: center;
+    background-color: rgba(255, 255, 255, 255);
+    margin: 50px auto;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    min-height: 180px;
+    text-align: center;
 }
 
 #tformulario h1 {
-  color: var(--green);
-  font-weight: bold;
+    color: var(--green);
+    font-weight: bold;
 }
 
 #tformulario label {
-  display: block;
-  padding: 5px;
-  font-size: 20px;
-  font-weight: bold;
-  color: var(--green);
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--green);
 }
 
 #tformulario input[type=text],
 input[type=number], input[type=password] {
-  padding: 8px;
-  border: 2px solid var(--grey-light);
-  border-radius: 5px;
+    padding: 8px;
+    border: 2px solid var(--grey-light);
+    border-radius: 5px;
 }
 
 .botao {
-  background-color: var(--green);
-  margin: 10px 0;
-  color: white;
-  padding: 7px;
-  box-shadow: 2px 2px 1px var(--grey-light);
-  clear: both;
-  -msie-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  font-weight: bold;
-  outline: none;
-  text-transform: uppercase;
+    background-color: var(--green);
+    margin: 20px 0 10px 0;
+    color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 1px var(--grey-light);
+    clear: both;
+    border-radius: 8px;
+    font-weight: bold;
+    outline: none;
+    text-transform: uppercase;
 }
 
 .botao:hover {
-  background: var(--dark-green);
+    background: var(--dark-green);
 }
 
 #geral {
-  background-color: rgba(255, 255, 255, 255);
-  margin: 50px auto;
-  padding: 30px;
-  width: 350px;
-  border-radius: 10px;
-  text-align: center;
+    background-color: rgba(255, 255, 255, 255);
+    margin: 50px auto;
+    padding: 30px;
+    width: 900px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 #conteudo {
-  text-align: end;
-  font-size: 20px;
-  color: var(--green);
-  font-weight: 600;
+    font-size: 20px;
+    color: var(--green);
+    font-weight: 600;
 }
-
